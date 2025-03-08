@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\N-tier-architecture.props" />
+</Project>

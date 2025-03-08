@@ -1,0 +1,15 @@
+D:\BLL\bin\Debug\net8.0\BLL.deps.json
+D:\BLL\bin\Debug\net8.0\BLL.dll
+D:\BLL\bin\Debug\net8.0\BLL.pdb
+D:\BLL\bin\Debug\net8.0\DAL.dll
+D:\BLL\bin\Debug\net8.0\DAL.pdb
+D:\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
+D:\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+D:\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+D:\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+D:\BLL\obj\Debug\net8.0\BLL.csproj.Up2Date
+D:\BLL\obj\Debug\net8.0\BLL.dll
+D:\BLL\obj\Debug\net8.0\refint\BLL.dll
+D:\BLL\obj\Debug\net8.0\BLL.pdb
+D:\BLL\obj\Debug\net8.0\ref\BLL.dll

@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Search Product";
+}
+
+<h2>Search Product</h2>
+
+<form asp-action="Search" asp-controller="Product" method="get">
+    <div class="form-group">
+        <label for="name">Product Name</label>
+        <input type="text" id="name" name="name" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Search</button>
+</form>

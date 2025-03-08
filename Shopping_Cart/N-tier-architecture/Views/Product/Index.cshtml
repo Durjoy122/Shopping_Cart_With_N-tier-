@@ -1,0 +1,38 @@
+﻿@model IEnumerable<DAL.Models.Product>
+
+
+<div class="d-flex justify-content-between">
+    <a href="@Url.Action("Create", "Product")" class="btn btn-primary">Add Product</a>
+
+    <!-- Logout Form -->
+    <form asp-action="Logout" asp-controller="User" method="post" class="d-inline">
+        <a href="@Url.Action("Logout", "User")" class="btn btn-danger">Logout</a>
+    </form>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>@product.Price</td>
+                <td>
+                    <a href="@Url.Action("Details", "Product", new { id = product.Id })" class="btn btn-info">Details</a>
+                    <a href="@Url.Action("Edit", "Product", new { id = product.Id })" class="btn btn-warning">Edit</a>
+                    <a href="@Url.Action("Delete", "Product", new { id = product.Id })" class="btn btn-danger">Delete</a>
+                    <a href="@Url.Action("AddToCart", "Cart", new { id = product.Id })" class="btn btn-success">Add to Cart</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
