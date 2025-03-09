@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\N-tier-architecture\\N-tier-architecture.csproj": {}
+    "D:\\Shopping_Cart\\Shopping_Cart\\N-tier-architecture\\N-tier-architecture.csproj": {}
   },
   "projects": {
-    "D:\\BLL\\BLL.csproj": {
+    "D:\\Shopping_Cart\\Shopping_Cart\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BLL\\BLL.csproj",
+        "projectUniqueName": "D:\\Shopping_Cart\\Shopping_Cart\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\BLL\\BLL.csproj",
+        "projectPath": "D:\\Shopping_Cart\\Shopping_Cart\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\BLL\\obj\\",
+        "outputPath": "D:\\Shopping_Cart\\Shopping_Cart\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\DAL\\DAL.csproj"
+              "D:\\Shopping_Cart\\Shopping_Cart\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Shopping_Cart\\Shopping_Cart\\DAL\\DAL.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "D:\\DAL\\DAL.csproj": {
+    "D:\\Shopping_Cart\\Shopping_Cart\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\Shopping_Cart\\Shopping_Cart\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\DAL\\DAL.csproj",
+        "projectPath": "D:\\Shopping_Cart\\Shopping_Cart\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\DAL\\obj\\",
+        "outputPath": "D:\\Shopping_Cart\\Shopping_Cart\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -154,14 +154,14 @@
         }
       }
     },
-    "D:\\N-tier-architecture\\N-tier-architecture.csproj": {
+    "D:\\Shopping_Cart\\Shopping_Cart\\N-tier-architecture\\N-tier-architecture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\N-tier-architecture\\N-tier-architecture.csproj",
+        "projectUniqueName": "D:\\Shopping_Cart\\Shopping_Cart\\N-tier-architecture\\N-tier-architecture.csproj",
         "projectName": "N-tier-architecture",
-        "projectPath": "D:\\N-tier-architecture\\N-tier-architecture.csproj",
+        "projectPath": "D:\\Shopping_Cart\\Shopping_Cart\\N-tier-architecture\\N-tier-architecture.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\N-tier-architecture\\obj\\",
+        "outputPath": "D:\\Shopping_Cart\\Shopping_Cart\\N-tier-architecture\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -182,11 +182,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\BLL\\BLL.csproj"
+              "D:\\Shopping_Cart\\Shopping_Cart\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\Shopping_Cart\\Shopping_Cart\\BLL\\BLL.csproj"
               },
-              "D:\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\DAL\\DAL.csproj"
+              "D:\\Shopping_Cart\\Shopping_Cart\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Shopping_Cart\\Shopping_Cart\\DAL\\DAL.csproj"
               }
             }
           }

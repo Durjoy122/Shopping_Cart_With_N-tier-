@@ -3,6 +3,7 @@ using BLL.Services;
 using DAL.Models;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace N_tire_architecture.Controllers
 {
@@ -32,6 +33,27 @@ namespace N_tire_architecture.Controllers
                 return NotFound();
             }
 
+            decimal finalPrice = product.Price; // Default price
+
+            
+            if(product.Price >= 1000) //Apply 20 % discount if price is greater than or equal to 1000
+            {
+                finalPrice = product.Price * 0.8m; // Reduce by 20%
+            }
+            else if (id % 2 == 0) // Apply 50% discount if ID is even
+            {
+                finalPrice = product.Price * 0.5m; // Reduce by 50%
+            }
+
+            //Create a New Product with the Discounted Price if applicable 
+            var discountedProduct = new Product
+            {
+                Id = product.Id,
+                Name = product.Name,
+                Price = (int)finalPrice // Store the discounted price
+            };
+
+            // Check if product already exists in cart
             if (cart.ContainsKey(id))
             {
                 var existingItem = cart[id];
@@ -39,9 +61,8 @@ namespace N_tire_architecture.Controllers
             }
             else
             {
-                cart[id] = (product, 1); // Add new product with quantity 1
+                cart[id] = (discountedProduct, 1); // Add new product with quantity 1
             }
-
             return RedirectToAction("Index");
         }
 

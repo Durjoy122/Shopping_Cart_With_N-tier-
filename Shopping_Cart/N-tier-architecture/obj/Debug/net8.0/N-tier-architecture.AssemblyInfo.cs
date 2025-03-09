@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("N-tier-architecture")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ba81b09725be56e34d244520b7b3d0e8f736c5a")]
 [assembly: System.Reflection.AssemblyProductAttribute("N-tier-architecture")]
 [assembly: System.Reflection.AssemblyTitleAttribute("N-tier-architecture")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

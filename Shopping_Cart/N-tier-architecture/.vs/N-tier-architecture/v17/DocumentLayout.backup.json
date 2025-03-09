@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\N-tier-architecture\\",
+  "WorkspaceRootPath": "D:\\Shopping_Cart\\Shopping_Cart\\N-tier-architecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{514D6EF7-0ABB-4408-B856-921400D699BB}|N-tier-architecture.csproj|d:\\n-tier-architecture\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{514D6EF7-0ABB-4408-B856-921400D699BB}|N-tier-architecture.csproj|d:\\shopping_cart\\shopping_cart\\n-tier-architecture\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{514D6EF7-0ABB-4408-B856-921400D699BB}|N-tier-architecture.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{514D6EF7-0ABB-4408-B856-921400D699BB}|N-tier-architecture.csproj|d:\\n-tier-architecture\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{514D6EF7-0ABB-4408-B856-921400D699BB}|N-tier-architecture.csproj|solutionrelative:views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{514D6EF7-0ABB-4408-B856-921400D699BB}|N-tier-architecture.csproj|d:\\n-tier-architecture\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{514D6EF7-0ABB-4408-B856-921400D699BB}|N-tier-architecture.csproj|solutionrelative:views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{514D6EF7-0ABB-4408-B856-921400D699BB}|N-tier-architecture.csproj|d:\\n-tier-architecture\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{514D6EF7-0ABB-4408-B856-921400D699BB}|N-tier-architecture.csproj|d:\\shopping_cart\\shopping_cart\\n-tier-architecture\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{514D6EF7-0ABB-4408-B856-921400D699BB}|N-tier-architecture.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{514D6EF7-0ABB-4408-B856-921400D699BB}|N-tier-architecture.csproj|d:\\n-tier-architecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{514D6EF7-0ABB-4408-B856-921400D699BB}|N-tier-architecture.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{514D6EF7-0ABB-4408-B856-921400D699BB}|N-tier-architecture.csproj|d:\\shopping_cart\\shopping_cart\\n-tier-architecture\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{514D6EF7-0ABB-4408-B856-921400D699BB}|N-tier-architecture.csproj|solutionrelative:views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{514D6EF7-0ABB-4408-B856-921400D699BB}|N-tier-architecture.csproj|d:\\n-tier-architecture\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{514D6EF7-0ABB-4408-B856-921400D699BB}|N-tier-architecture.csproj|d:\\shopping_cart\\shopping_cart\\n-tier-architecture\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{514D6EF7-0ABB-4408-B856-921400D699BB}|N-tier-architecture.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{514D6EF7-0ABB-4408-B856-921400D699BB}|N-tier-architecture.csproj|d:\\shopping_cart\\shopping_cart\\n-tier-architecture\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{514D6EF7-0ABB-4408-B856-921400D699BB}|N-tier-architecture.csproj|solutionrelative:views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{514D6EF7-0ABB-4408-B856-921400D699BB}|N-tier-architecture.csproj|d:\\shopping_cart\\shopping_cart\\n-tier-architecture\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{514D6EF7-0ABB-4408-B856-921400D699BB}|N-tier-architecture.csproj|solutionrelative:views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -34,15 +34,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Shopping_Cart\\Shopping_Cart\\N-tier-architecture\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Shopping_Cart\\Shopping_Cart\\N-tier-architecture\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T07:13:56.099Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\N-tier-architecture\\Views\\Product\\Delete.cshtml",
+              "DocumentMoniker": "D:\\Shopping_Cart\\Shopping_Cart\\N-tier-architecture\\Views\\Product\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Delete.cshtml",
-              "ToolTip": "D:\\N-tier-architecture\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "D:\\Shopping_Cart\\Shopping_Cart\\N-tier-architecture\\Views\\Product\\Delete.cshtml",
               "RelativeToolTip": "Views\\Product\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -50,67 +62,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\N-tier-architecture\\Views\\Product\\Edit.cshtml",
+              "DocumentMoniker": "D:\\Shopping_Cart\\Shopping_Cart\\N-tier-architecture\\Views\\Product\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Edit.cshtml",
-              "ToolTip": "D:\\N-tier-architecture\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "D:\\Shopping_Cart\\Shopping_Cart\\N-tier-architecture\\Views\\Product\\Edit.cshtml",
               "RelativeToolTip": "Views\\Product\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-08T10:04:23.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T10:04:23.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\N-tier-architecture\\Views\\Cart\\Index.cshtml",
+              "DocumentMoniker": "D:\\Shopping_Cart\\Shopping_Cart\\N-tier-architecture\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Cart\\Index.cshtml",
-              "ToolTip": "D:\\N-tier-architecture\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\Shopping_Cart\\Shopping_Cart\\N-tier-architecture\\Views\\Cart\\Index.cshtml",
               "RelativeToolTip": "Views\\Cart\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-08T10:03:54.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T10:03:54.938Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CartController.cs",
-              "DocumentMoniker": "D:\\N-tier-architecture\\Controllers\\CartController.cs",
+              "DocumentMoniker": "D:\\Shopping_Cart\\Shopping_Cart\\N-tier-architecture\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "Controllers\\CartController.cs",
-              "ToolTip": "D:\\N-tier-architecture\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\Shopping_Cart\\Shopping_Cart\\N-tier-architecture\\Controllers\\CartController.cs",
               "RelativeToolTip": "Controllers\\CartController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwEIAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowC8AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T08:49:26.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\N-tier-architecture\\Views\\Product\\Index.cshtml",
+              "DocumentMoniker": "D:\\Shopping_Cart\\Shopping_Cart\\N-tier-architecture\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
-              "ToolTip": "D:\\N-tier-architecture\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\Shopping_Cart\\Shopping_Cart\\N-tier-architecture\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-07T19:59:50.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\N-tier-architecture\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\N-tier-architecture\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T19:22:52.442Z",
               "EditorCaption": ""
             }
           ]

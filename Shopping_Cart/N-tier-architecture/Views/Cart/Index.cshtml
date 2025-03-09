@@ -1,7 +1,7 @@
 ﻿@model List<(DAL.Models.Product Product, int Quantity)>
 
 <h2>Shopping Cart</h2>
-
+<a href="@Url.Action("Index", "Product")" class="btn btn-warning">Back To Items </a>
 @if (!Model.Any())
 {
     <p>No products in the cart.</p>
@@ -40,5 +40,4 @@ else
     <h4>Total Price: @Model.Sum(item => item.Product.Price * item.Quantity)</h4>
 
     <a href="@Url.Action("ClearCart", "Cart")" class="btn btn-warning">Clear Cart</a>
-    <a href="@Url.Action("Index", "Product")" class="btn btn-warning">Back</a>
 }
