@@ -48,7 +48,7 @@ namespace N_tire_architecture.Controllers
 
         public IActionResult Create()
         {
-            ViewBag.Prices = new List<int> { 500, 200, 300, 1000, 700 };
+            ViewBag.Prices = new List<int> {100, 500, 200, 300, 1000, 700 };
             return View();  // Ensure this exists!
         }
 
@@ -57,7 +57,7 @@ namespace N_tire_architecture.Controllers
         {
             if (!ModelState.IsValid)
             {
-                ViewBag.Prices = new List<int> { 500, 200, 300, 1000, 700 };
+                ViewBag.Prices = new List<int> {100, 500, 200, 300, 1000, 700 };
                 return View(product);
             }
 
@@ -69,7 +69,7 @@ namespace N_tire_architecture.Controllers
             catch (Exception)
             {
                 ModelState.AddModelError("", "An error occurred while adding the product.");
-                ViewBag.Prices = new List<int> { 500, 200, 300, 1000, 700 };
+                ViewBag.Prices = new List<int> {100, 500, 200, 300, 1000, 700 };
                 return View(product);
             }
         }
@@ -81,7 +81,7 @@ namespace N_tire_architecture.Controllers
             {
                 return NotFound();
             }
-            ViewBag.Prices = new List<int> { 500, 200, 300, 1000, 700 };
+            ViewBag.Prices = new List<int> {100,  500, 200, 300, 1000, 700 };
             return View(product);
         }
 
@@ -95,7 +95,7 @@ namespace N_tire_architecture.Controllers
 
             if (!ModelState.IsValid)
             {
-                ViewBag.Prices = new List<int> { 500, 200, 300, 1000, 700 };
+                ViewBag.Prices = new List<int> {100, 500, 200, 300, 1000, 700 };
                 return View(product);
             }
 

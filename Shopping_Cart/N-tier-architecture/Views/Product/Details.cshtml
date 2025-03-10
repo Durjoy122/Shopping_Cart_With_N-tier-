@@ -24,5 +24,6 @@
 <div>
     <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
     <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    <a href="@Url.Action("AddToCart", "Cart", new { id = Model.Id })" class="btn btn-success">Add to Cart</a>
 </div>
 
