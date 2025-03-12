@@ -17,6 +17,11 @@ namespace BLL.Services
             return _productRepository.GetAll();
         }
 
+        public IEnumerable<Product> SearchProductsByName(string name)
+        {
+            return _productRepository.GetAll().Where(p => p.Name.Contains(name, StringComparison.OrdinalIgnoreCase));
+        }
+
         public Product GetProductByName(string name)
         {
             return _productRepository.GetByName(name);

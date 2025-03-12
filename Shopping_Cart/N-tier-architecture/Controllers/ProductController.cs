@@ -120,5 +120,23 @@ namespace N_tire_architecture.Controllers
             _productService.DeleteProduct(id);
             return RedirectToAction(nameof(Index));
         }
+
+        // Search products by name
+        public IActionResult Search_Name(string query)
+        {
+            if (string.IsNullOrWhiteSpace(query))
+            {
+                ViewData["Message"] = "Please enter a search term.";
+                return View(new List<Product>());
+            }
+
+            var products = _productService.SearchProductsByName(query);
+            if (!products.Any())
+            {
+                ViewData["Message"] = "No products found.";
+            }
+
+            return View(products);
+        }
     }
 }

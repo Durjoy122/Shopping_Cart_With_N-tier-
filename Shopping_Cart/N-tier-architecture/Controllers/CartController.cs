@@ -21,6 +21,16 @@ namespace N_tire_architecture.Controllers
         public IActionResult Index()
         {
             var cartList = cart.Values.ToList();
+            decimal totalPrice = cartList.Sum(item => item.Product.Price * item.Quantity);
+
+            // Apply 5% discount if total price exceeds 2000 Taka
+            decimal discount = totalPrice > 2000 ? totalPrice * 0.05m : 0;
+            decimal finalPrice = totalPrice - discount;
+
+            ViewData["TotalPrice"] = totalPrice;
+            ViewData["Discount"] = discount;
+            ViewData["FinalPrice"] = finalPrice;
+
             return View(cartList);
         }
 
