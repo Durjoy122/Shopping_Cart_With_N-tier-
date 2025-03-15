@@ -47,6 +47,40 @@
           }
         }
       },
+      "itext7.bouncy-castle-adapter/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Portable.BouncyCastle": "1.8.10",
+          "itext7.commons": "8.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/itext.bouncy-castle-adapter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/itext.bouncy-castle-adapter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "itext7.commons/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "5.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/itext.commons.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/itext.commons.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -565,6 +599,32 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Portable.BouncyCastle/1.8.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.ClientModel/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -1064,6 +1124,38 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "itext7.bouncy-castle-adapter/8.0.0": {
+      "sha512": "FmsestXaCqnWiHgeGIcs1DL5FpQdwXZJN/+tAZWPHlCPE1rLSPCLaGv5gAW7wlPqdF86I81PLQN5YDedDTsRkQ==",
+      "type": "package",
+      "path": "itext7.bouncy-castle-adapter/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ITSC-avatar.png",
+        "itext7.bouncy-castle-adapter.8.0.0.nupkg.sha512",
+        "itext7.bouncy-castle-adapter.nuspec",
+        "lib/net461/itext.bouncy-castle-adapter.dll",
+        "lib/net461/itext.bouncy-castle-adapter.xml",
+        "lib/netstandard2.0/itext.bouncy-castle-adapter.dll",
+        "lib/netstandard2.0/itext.bouncy-castle-adapter.xml"
+      ]
+    },
+    "itext7.commons/8.0.0": {
+      "sha512": "YPraDCzJKy+xX79WkHd0FevrTtbRmHyuhF0oS9c7s12Qe+3xlCnWqaPMGQ4batr3aarDU8E4Tquj4idcuJqrWg==",
+      "type": "package",
+      "path": "itext7.commons/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ITSC-avatar.png",
+        "itext7.commons.8.0.0.nupkg.sha512",
+        "itext7.commons.nuspec",
+        "lib/net461/itext.commons.dll",
+        "lib/net461/itext.commons.xml",
+        "lib/netstandard2.0/itext.commons.dll",
+        "lib/netstandard2.0/itext.commons.xml"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -1879,6 +1971,48 @@
         "runtimes/win/lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll",
         "runtimes/win/lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.xml",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Portable.BouncyCastle/1.8.10": {
+      "sha512": "XLhjNAwuVB9ynwn11l5K44eyozh8q6gFseTrlnLNttejimglX7+F9+vxh60LPjvA/DAt6fUdS43N3ah8K6eaWg==",
+      "type": "package",
+      "path": "portable.bouncycastle/1.8.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/BouncyCastle.Crypto.dll",
+        "lib/net40/BouncyCastle.Crypto.xml",
+        "lib/netstandard2.0/BouncyCastle.Crypto.dll",
+        "lib/netstandard2.0/BouncyCastle.Crypto.xml",
+        "portable.bouncycastle.1.8.10.nupkg.sha512",
+        "portable.bouncycastle.nuspec"
       ]
     },
     "System.ClientModel/1.0.0": {
@@ -2823,7 +2957,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "DAL >= 1.0.0"
+      "DAL >= 1.0.0",
+      "itext7.bouncy-castle-adapter >= 1.7.1"
     ]
   },
   "packageFolders": {
@@ -2879,6 +3014,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "itext7.bouncy-castle-adapter": {
+            "target": "Package",
+            "version": "[1.7.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -2898,5 +3039,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "BLL depends on itext7.bouncy-castle-adapter (>= 1.7.1) but itext7.bouncy-castle-adapter 1.7.1 was not found. itext7.bouncy-castle-adapter 8.0.0 was resolved instead.",
+      "libraryId": "itext7.bouncy-castle-adapter",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

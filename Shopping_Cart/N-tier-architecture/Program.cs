@@ -4,11 +4,15 @@ using BLL.Services;
 using DAL.Repositories; // For IRepository, ProductRepository, IUserRepository, and UserRepository
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Cors.Infrastructure;
+using DinkToPdf.Contracts;
+using DinkToPdf;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
 
 // Register DbContext with the connection string from appsettings.json
 builder.Services.AddDbContext<ApplicationDbContext>(options =>

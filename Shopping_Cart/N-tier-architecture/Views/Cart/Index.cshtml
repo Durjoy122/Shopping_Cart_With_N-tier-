@@ -36,7 +36,7 @@
                             <td>@item.Product.Name</td>
                             <td>@item.Product.Price.ToString("F2")</td>
                             <td>@item.Quantity</td>
-                            <td>@(item.Product.Price * item.Quantity)</td> <!-- Total price -->
+                            <td>@(item.Product.Price * item.Quantity)</td>
                             <td>
                                 <a href="@Url.Action("RemoveFromCart", "Cart", new { id = item.Product.Id })" class="btn btn-danger btn-sm">
                                     <i class="fas fa-trash"></i> Remove
@@ -52,7 +52,7 @@
         <div class="card shadow-sm p-4 mt-3">
             <h4>Total Price: <span class="text-primary">@ViewData["TotalPrice"]</span></h4>
 
-            @if ((decimal)ViewData["Discount"] > 0)
+            @if (ViewData["Discount"] != null && (decimal)ViewData["Discount"] > 0)
             {
                 <h5 class="text-success">Discount (5%): @ViewData["Discount"]</h5>
                 <h4 class="text-danger">Final Price: @ViewData["FinalPrice"]</h4>
@@ -61,6 +61,9 @@
             <div class="mt-3">
                 <a href="@Url.Action("ClearCart", "Cart")" class="btn btn-warning">
                     <i class="fas fa-trash"></i> Clear Cart
+                </a>
+                <a href="@Url.Action("DownloadCartPdf", "Cart")" class="btn btn-success">
+                    <i class="fas fa-file-pdf"></i> Download PDF
                 </a>
             </div>
         </div>

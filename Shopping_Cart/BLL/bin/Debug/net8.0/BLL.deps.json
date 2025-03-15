@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "BLL/1.0.0": {
         "dependencies": {
-          "DAL": "1.0.0"
+          "DAL": "1.0.0",
+          "itext7.bouncy-castle-adapter": "8.0.0"
         },
         "runtime": {
           "BLL.dll": {}
@@ -46,6 +47,30 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.11.4.0",
             "fileVersion": "1.1100.424.31005"
+          }
+        }
+      },
+      "itext7.bouncy-castle-adapter/8.0.0": {
+        "dependencies": {
+          "Portable.BouncyCastle": "1.8.10",
+          "itext7.commons": "8.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/itext.bouncy-castle-adapter.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "itext7.commons/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "9.0.1",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/itext.commons.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
           }
         }
       },
@@ -394,6 +419,22 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Portable.BouncyCastle/1.8.10": {
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.8.10.0",
+            "fileVersion": "1.8.10.1"
+          }
+        }
+      },
       "System.ClientModel/1.0.0": {
         "dependencies": {
           "System.Memory.Data": "1.0.2",
@@ -648,6 +689,20 @@
       "path": "azure.identity/1.11.4",
       "hashPath": "azure.identity.1.11.4.nupkg.sha512"
     },
+    "itext7.bouncy-castle-adapter/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FmsestXaCqnWiHgeGIcs1DL5FpQdwXZJN/+tAZWPHlCPE1rLSPCLaGv5gAW7wlPqdF86I81PLQN5YDedDTsRkQ==",
+      "path": "itext7.bouncy-castle-adapter/8.0.0",
+      "hashPath": "itext7.bouncy-castle-adapter.8.0.0.nupkg.sha512"
+    },
+    "itext7.commons/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YPraDCzJKy+xX79WkHd0FevrTtbRmHyuhF0oS9c7s12Qe+3xlCnWqaPMGQ4batr3aarDU8E4Tquj4idcuJqrWg==",
+      "path": "itext7.commons/8.0.0",
+      "hashPath": "itext7.commons.8.0.0.nupkg.sha512"
+    },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
       "serviceable": true,
@@ -857,6 +912,20 @@
       "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
       "path": "microsoft.win32.systemevents/6.0.0",
       "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Portable.BouncyCastle/1.8.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XLhjNAwuVB9ynwn11l5K44eyozh8q6gFseTrlnLNttejimglX7+F9+vxh60LPjvA/DAt6fUdS43N3ah8K6eaWg==",
+      "path": "portable.bouncycastle/1.8.10",
+      "hashPath": "portable.bouncycastle.1.8.10.nupkg.sha512"
     },
     "System.ClientModel/1.0.0": {
       "type": "package",

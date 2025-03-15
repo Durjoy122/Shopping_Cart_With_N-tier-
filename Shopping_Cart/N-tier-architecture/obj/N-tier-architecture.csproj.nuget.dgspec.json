@@ -53,6 +53,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "itext7.bouncy-castle-adapter": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -207,6 +213,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BouncyCastle.NetCore": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "DinkToPdf": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
               "version": "[2.3.0, )"
@@ -220,6 +234,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.1, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[9.1.0, )"
+            },
+            "itext7.bouncy-castle-adapter": {
+              "target": "Package",
+              "version": "[9.1.0, )"
             }
           },
           "imports": [
